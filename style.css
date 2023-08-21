@@ -1,7 +1,10 @@
+*{
+    font-family: sans-serif;
+}
 .caja-info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
 }
 .caja-1-container{
     display: flex;
@@ -15,7 +18,7 @@
     .boton {
         cursor: pointer;
         border: none;
-        border-radius: 5px ;
+        border-radius: 60px ;
         padding: 10px 20px;
         color: rgb(149, 151, 153);
         text-decoration: none;
@@ -24,4 +27,9 @@
     }
     .boton:hover {
         background-color: darkgrey;
+    }
+    .fecha {
+        color: darkgrey;
+        float: right;
+        margin-right: 480px;
     }
