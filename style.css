@@ -1,6 +1,10 @@
 *{
     font-family: sans-serif;
 }
+h1{
+    font-size: 22px;
+    color: rgb(83, 83, 83)  ;
+}
 .caja-info {
     display: flex;
     flex-direction: column;
@@ -15,7 +19,7 @@
     margin-bottom: 40px;
 }
 
-    .boton {
+.boton-fake {
         cursor: pointer;
         border: none;
         border-radius: 60px ;
@@ -25,7 +29,7 @@
         display: inline-block;
         background-color:rgb(226, 223, 223)
     }
-    .boton:hover {
+    .boton-fake:hover {
         background-color: darkgrey;
     }
     .fecha {
@@ -33,3 +37,18 @@
         float: right;
         margin-right: 480px;
     }
+    .mini-cajita {
+        color: rgb(99, 98, 98);;
+    }
+    .by { 
+        color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    h2 {
+        color: rgb(83, 83, 83) 
+     }
+   .info-1 {
+    color: rgb(129, 128, 128);
+   }
