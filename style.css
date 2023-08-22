@@ -8,7 +8,7 @@ h1{
 .caja-info {
     display: flex;
     flex-direction: column;
-
+    width: 520px;
 }
 .caja-1-container{
     display: flex;
@@ -20,6 +20,11 @@ h1{
 }
 .boton-1 {
     margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 8px;
 }
 .boton-fake {
         cursor: pointer;
@@ -37,7 +42,7 @@ h1{
     .fecha {
         color: darkgrey;
         float: right;
-        margin-right: 480px;
+        margin-right: 10px;
     }
     .mini-cajita {
         color: rgb(99, 98, 98);;
