@@ -8,7 +8,7 @@ h1{
 .caja-info {
     display: flex;
     flex-direction: column;
-    width: 520px;
+    width: 40%;
 }
 .caja-1-container{
     display: flex;
