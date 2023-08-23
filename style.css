@@ -1,15 +1,18 @@
 *{
     font-family: sans-serif;
 }
+
 h1{
     font-size: 22px;
     color: rgb(83, 83, 83)  ;
 }
+
 .caja-info {
     display: flex;
     flex-direction: column;
-    width: 520px;
+    width: 40%;
 }
+
 .caja-1-container{
     display: flex;
     gap: 20px;
@@ -18,6 +21,7 @@ h1{
     margin-right: 100px;
     margin-bottom: 40px;
 }
+
 .boton-1 {
     margin-top: 50px;
     display: flex;
@@ -26,6 +30,7 @@ h1{
     flex-direction: row;
     gap: 8px;
 }
+
 .boton-fake {
     cursor: pointer;
     border: none;
@@ -36,6 +41,7 @@ h1{
     display: inline-block;
     background-color:rgb(226, 223, 223)
     }
+
     .boton-fake:hover {
         background-color: rgb(194, 191, 191);
     }
