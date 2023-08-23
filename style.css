@@ -27,14 +27,14 @@ h1{
     gap: 8px;
 }
 .boton-fake {
-        cursor: pointer;
-        border: none;
-        border-radius: 60px ;
-        padding: 10px 20px;
-        color: rgb(149, 151, 153);
-        text-decoration: none;
-        display: inline-block;
-        background-color:rgb(226, 223, 223)
+    cursor: pointer;
+    border: none;
+    border-radius: 60px ;
+    padding: 10px 20px;
+    color: rgb(149, 151, 153);
+    text-decoration: none;
+    display: inline-block;
+    background-color:rgb(226, 223, 223)
     }
     .boton-fake:hover {
         background-color: rgb(194, 191, 191);
@@ -57,14 +57,14 @@ h1{
         color: rgb(83, 83, 83) 
      }
    .info-1 {
-    color: rgb(129, 128, 128);
+        color: rgb(129, 128, 128);
    }
    .galeria {
-    display: flex;
-    flex-direction: row-reverse
+        display: flex;
+        flex-direction: row-reverse
    }
    .link-galeria {
-    cursor: pointer;
+        cursor: pointer;
         border: none;
         border-radius: 60px ;
         padding: 10px 20px;
@@ -74,62 +74,28 @@ h1{
         background-color:rgb(43, 206, 235)
    }
    .link-galeria:hover {
-    background-color: rgb(13, 143, 194);
+        background-color: rgb(13, 143, 194);
    }
-   .container1 {
-        width: 400px;
-        text-align: center;
-        box-shadow: 10px;
-        background-color: white;
-        border: 0px solid black;
-        border-radius: 21px;
-        box-shadow: 0px 4px 4px grey;
-        flex-direction: column;
-        overflow: hidden;
-        display: flex;
+.informacion{
+    margin-bottom: 50px;
+}
+.container1 {
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 21px;
+    box-shadow: 0px 4px 4px grey;
+    flex-direction: column;
+    overflow: hidden;
+    display: flex;
    }
-   .cardinfo1 {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px;
-        border-radius: 0 0 20px 17px;
-   }
-   .container2 {
-        width: 400px;
-        text-align: center;
-        box-shadow: 10px;
-        background-color: white;
-        border: 0px solid black;
-        border-radius: 21px;
-        box-shadow: 0px 4px 4px grey;
-        overflow: hidden;
-
-    }
-    .cardinfo2 {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px;
-        border-radius: 0 0 20px 17px;
-    }
-    .container3 {
-        width: 400px;
-        text-align: center;
-        box-shadow: 10px;
-        background-color: white;
-        border: 0px solid black;
-        border-radius: 21px;
-        box-shadow: 0px 4px 4px grey;
-        overflow: hidden;
-    }
-    .cardinfo3 {
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        padding: 10px;
-        border-radius: 0 0 20px 17px;
-    }
-    .contenedores{
-        display: flex;
-        gap: 50px;
+.cardinfo1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 0 0 20px 17px;
     }
     .boton-2{
         display: flex;
@@ -138,7 +104,65 @@ h1{
         flex-direction: row;
         gap: 8px;
         margin-left: 5px;
-    }
+        }
     .fecha2{
-        color: blue;
+        color: darkgray;
+        }
+.container2 {
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 21px;
+    box-shadow: 0px 4px 4px grey;
+    overflow: hidden;
+    }
+.cardinfo2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 0 0 20px 17px;
+    }
+    .boton-3{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 8px;
+        margin-left: 5px;
+        }
+    .fecha3{
+        color: darkgray;
+        }
+.container3 {
+    width: 400px;
+    text-align: center;
+    box-shadow: 10px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 21px;
+    box-shadow: 0px 4px 4px grey;
+    overflow: hidden;
+    }
+.cardinfo3 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 0 0 20px 17px;
+    }
+    .boton-4{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 8px;
+        margin-left: 5px;
+        }
+    .fecha4{
+        color: darkgray;
+        }
+.contenedores{
+    display: flex;
+    gap: 50px;
     }
