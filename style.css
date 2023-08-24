@@ -7,11 +7,15 @@ h1 {
   color: rgb(83, 83, 83);
 }
 
-.Logo-español {
+.logo-español {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
   margin-top: 30px;
+}
+
+p {
+  margin-left: 4px;
 }
 
 .caja-info {
@@ -62,7 +66,6 @@ h1 {
 
 .mini-cajita {
   color: rgb(99, 98, 98);
-  ;
 }
 
 .by {
@@ -115,7 +118,7 @@ h2 {
   margin-right: 90px;
 }
 
-.container1 {
+.container {
   width: 400px;
   text-align: center;
   box-shadow: 10px;
@@ -127,7 +130,7 @@ h2 {
   overflow: hidden;
 }
 
-.cardinfo1 {
+.cardinfo {
   text-align: justify;
   background-color: rgb(255, 255, 255);
   color: rgb(129, 128, 128);
@@ -169,35 +172,6 @@ h3 {
   color: rgb(169, 169, 169);
 }
 
-.container2 {
-  width: 400px;
-  text-align: center;
-  box-shadow: 10px;
-  background-color: white;
-  border: 0px solid black;
-  border-radius: 21px;
-  box-shadow: 0px 4px 4px grey;
-  overflow: hidden;
-}
-
-.cardinfo2 {
-  background-color: rgb(255, 255, 255);
-  color: rgb(129, 128, 128);
-  border-radius: 0 0 20px 17px;
-  text-align: justify;
-  margin: 12px;
-}
-
-.boton-3 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  gap: 8px;
-  margin-left: 10px;
-  margin-top: 5px;
-}
-
 .boton-fake3 {
   cursor: pointer;
   border: none;
@@ -216,36 +190,6 @@ h3 {
 
 .fecha3 {
   color: darkgray;
-}
-
-.container3 {
-  width: 400px;
-  text-align: center;
-  box-shadow: 10px;
-  background-color: white;
-  border: 0px solid black;
-  border-radius: 21px;
-  box-shadow: 0px 4px 4px grey;
-  overflow: hidden;
-}
-
-.cardinfo3 {
-  background-color: rgb(255, 255, 255);
-  color: rgb(129, 128, 128);
-
-  border-radius: 0 0 20px 17px;
-  text-align: justify;
-  margin: 12px;
-}
-
-.boton-4 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
-  gap: 8px;
-  margin-left: 10px;
-  margin-top: 5px;
 }
 
 .boton-fake4 {
